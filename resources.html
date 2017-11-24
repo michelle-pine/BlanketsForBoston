@@ -1,0 +1,145 @@
+  <!DOCTYPE html>
+  <!--[if IE 8]><html class="lt-ie10 lt-ie9"> <![endif]-->
+  <!--[if IE 9]><html class="lt-ie10"> <![endif]-->
+  <!--[if gt IE 9]><!-->
+  <html>
+  <!--<![endif]-->
+
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,500,600" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel = "stylesheet"
+     type = "text/css"
+     href = "main.css" />
+      
+
+    <script>
+      var slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        var slides = document.getElementsByClassName("mySlides");
+        if (n + slideIndex <= slides.length && n + slideIndex > 0) {
+          showSlides(slideIndex += n);
+        }
+      }
+
+      function currentSlide(n) {
+        showSlides(slideIndex = n);
+      }
+
+      function showSlides(n) {
+        var i;
+        var slides = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1
+        }
+        if (n < 1) {
+          slideIndex = slides.length
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+
+  </head>
+
+  <body>
+
+    <nav>
+      <a href="/">
+        <div class="logo"><img alt="Blankets for Boston logo" src="https://78.media.tumblr.com/fb57e9054c68a95a23f20a549fc0f2f3/tumblr_ozrsodSPty1wifq6vo3_540.png" /></div>
+      </a>
+
+      <div class="links">
+
+
+        <a href="/about">about</a>
+        <a href="/events">events</a>
+        <a href="/resources">resources</a>
+        <a href="/donate" class="donate">donate</a>
+
+
+
+      </div>
+
+
+    </nav>
+    <main>
+      <div class="info_block_colored" style="min-height:100%;height:auto;">
+          
+          <div class="page">
+              <section>
+              <div class="scrollText">
+              <div class="page_title">
+                  <h1>Resources</h1>
+              </div>
+              <div class="info">
+
+
+  <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
+
+  <h2>Header Level 2</h2>
+
+  <ol>
+     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+     <li>Aliquam tincidunt mauris eu risus.</li>
+  </ol>
+
+  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
+
+  <h3>Header Level 3</h3>
+
+  <ul>
+     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
+     <li>Aliquam tincidunt mauris eu risus.</li>
+  </ul>
+  <ul>
+     <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
+     <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
+     <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
+     <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
+  </ul>
+              
+
+
+
+
+
+
+
+
+
+
+              </div>
+              </div>
+              </section>
+              
+              <section>
+              
+              <div class="pageImg">
+                  
+                  <img src="https://78.media.tumblr.com/8991dd4cbe1851c52b661322794659d2/tumblr_ozrsodSPty1wifq6vo2_1280.png"/>
+              </div>
+              
+          
+          </div>
+          </section>
+          
+      </div>
+
+
+
+    </main>
+
+
+  </body>
+
+  </html>
