@@ -655,3 +655,7 @@ ul li:hover:before {
   -webkit-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
 }
+
+.page i {
+  color: #c512ff
+}
