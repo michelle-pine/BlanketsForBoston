@@ -1,12 +1,12 @@
 
 
     body {
-      font-family: 'Raleway', Helvetica, Arial;
+      font-family: 'Raleway', sans-serif;
       background: white;
       font-smoothing: always;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      margin: 0;
+      margin: 0px 0px 0px 0px;
     }
     
     a {
