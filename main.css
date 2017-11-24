@@ -649,7 +649,7 @@ ul li:hover:before {
   -o-transition-duration: 0.4s;
 }
 
-.active_link a {
+.links .active_link {
   color: #838383;
   -moz-transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s;
