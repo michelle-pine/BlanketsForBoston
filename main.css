@@ -596,6 +596,11 @@ section {
     width: 80%;
     max-width: 80vw;
   }
+  
+  .page {
+   overflow:scroll;
+  }
+  
   .info {
     width: 100%;
     max-width: 100vw;
