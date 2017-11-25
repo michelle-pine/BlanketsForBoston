@@ -576,10 +576,15 @@ section {
   max-width: 90vh;
 }
 
+.pageImg iframe {
+  width:100%;
+  height:80vh;
+  
+}
+
 .info {
   width: 100%;
   height: 70vh;
-  /* Fix a height here */
   overflow-y: scroll;
   display: inline-block;
 }
