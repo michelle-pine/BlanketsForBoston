@@ -570,7 +570,7 @@ section {
   display: inline-block;
 }
 
-.pageImg img {
+.pageImg img, .pageImg iframe {
   max-height: 90vh;
   height: 100%;
   max-width: 90vh;
