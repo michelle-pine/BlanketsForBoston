@@ -229,9 +229,8 @@ nav {
   font-size: 1.7vw;
 }
 
-.text_link a:hover {
+.text_link a:hover, .text_link3 a:hover {
   color: #838383;
-  ;
 }
 
 i {
@@ -303,7 +302,7 @@ i {
   margin-left: 10%;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .title,
   .title2,
   .title3,
@@ -355,7 +354,7 @@ i {
     background: white;
   }
   .title2 {
-    margin-left: 22%;
+    margin-left: 20%;
     max-width: 100%;
     background: white;
     -moz-transition-duration: 0.4s;
@@ -394,7 +393,13 @@ i {
     color:white;
     background:transparent;
     width:80vw;
-    marign-left:0px;
+    text-align:left;
+    margin-left:0px;
+    margin-left:10px;
+  }
+
+  .slideshowPanel .title2 {
+    margin-top:-20px;
   }
 }
 
@@ -604,7 +609,7 @@ section {
   }
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 900px) {
   section {
     width: 80%;
     max-width: 80vw;
