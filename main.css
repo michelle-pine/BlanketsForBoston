@@ -580,7 +580,7 @@ section {
 .pageImg iframe {
   width:100%;
   height:80vh;
-  width:40vw;
+  min-width:40vw;
   
 }
 
