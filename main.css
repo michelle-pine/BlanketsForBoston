@@ -649,6 +649,14 @@ section {
     overflow-y: hidden;
     height: auto;
   }
+    
+    .pageImg {
+        width:80vw;
+    }
+    
+    .pageImg img {
+        width:100%;
+    }
 }
 
 ::-webkit-scrollbar {
