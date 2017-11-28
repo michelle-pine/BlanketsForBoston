@@ -13,42 +13,6 @@
      href = "main.css" />
       
 
-    <script>
-      var slideIndex = 1;
-      showSlides(slideIndex);
-
-      function plusSlides(n) {
-        var slides = document.getElementsByClassName("mySlides");
-        if (n + slideIndex <= slides.length && n + slideIndex > 0) {
-          showSlides(slideIndex += n);
-        }
-      }
-
-      function currentSlide(n) {
-        showSlides(slideIndex = n);
-      }
-
-      function showSlides(n) {
-        var i;
-        var slides = document.getElementsByClassName("mySlides");
-        var dots = document.getElementsByClassName("dot");
-        if (n > slides.length) {
-          slideIndex = 1
-        }
-        if (n < 1) {
-          slideIndex = slides.length
-        }
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-        }
-        slides[slideIndex - 1].style.display = "block";
-        dots[slideIndex - 1].className += " active";
-      }
-    </script>
-
   </head>
 
   <body>
@@ -79,35 +43,50 @@
               <section>
               <div class="scrollText">
               <div class="page_title">
-                  <h1>Resources</h1>
+                  <h1>resources</h1>
               </div>
               <div class="info">
+                  <h2>charities</h2>
+                  <p> If you want more information about the places we donate to, here are their websites:</p>
+                  
+                  <ul>
+                      
+                      <li><a href="http://www.projectlinus.org/">Project Linus</a> - a nonprofit which donates blankets to children in need, particularly those in hospitals. There are chapters of this organization in various parts of Massachusetts. </li>
+                       <li><a href="http://warmupamerica.org/">Warm Up America!</a> - an organization which gives knitted blankets and hats to hospitals, shelters, and homeless people, as well as victims of disaster.</li>
+                       <li><a href="http://www.mvob.org/">My Very Own Blanket</a> - a charity which donates blankets and pillows to children in foster care.</li>
+                       <li><a href="http://www.blankethearts.com/">Blanket Heats</a> - a charity which specializes in creating no-sew blankets for homeless people, people in hospitals, and veterans.</li>
+                  
+                  
+        
+                  
+                  </ul>
+                  
+                  <h2> blanket making resources</h2>
+                  <p> No two blankets are ever made the same way, and we want to help you make a meaningful, unique blanket for someone in need. Here are some tips and tutorials on how to make a wonderful winter blanket: </p>
+                  <ul>
+                      <li>Our <a href="index.html#slides">No-Sew Blanket</a> tutorial.</li>
+                      <li>A <a href="http://www.blanketedinlove.org/how-to-make-a-blanket/">Blanket-Making Guide</a> from <a href="http://www.blanketedinlove.org/">Blanketed In Love</a>, a chapter of Project Linus. </li>
+                        <li>Another <a href="https://www.woolandthegang.com/blog/2015/11/how-to-knit-a-blanket/">guide on making warm blankets</a> from <a href="https://www.woolandthegang.com/">Wool and the Gang</a>, a website that sells various wool, yarn, and knitting supplies</li>
+                       <li>Step-by-step <a href="http://www.instructables.com/id/No-Sew-Fleece-Blanket-1/">instructions on how to make a no-sew blanket</a> by <a href="http://www.instructables.com/">Blanketed In Love</a></li>
+                      <li>A collection of <a href="http://www.yarnspirations.com/patterns/afghan_blanket-knitting-patterns">knitting patterns for purchase</a> from <a href="http://www.yarnspirations.com/">Yarnspirations</a>. These patterns are ranked by difficulty and can be bought online.</li>
+                      <li>A video on <a href="https://www.youtube.com/watch?v=ui9xW-qwyEU">knitting a blanket</a> at the beginner level. <a href="http://www.knitpicks.com/patterns/Crochet_Beginner_Blanket__D55733220.html">Here</a> is the crochet pattern used in the video.</li>
+                      <li>Another video on <a href="https://www.youtube.com/watch?v=TQDptwICjj4https://www.youtube.com/watch?v=TQDptwICjj4">making an Afgan blanket</a> at the beginner level, provided by <a href="http://www.kristisimpson.net/">KristiSimpson.net</a>.</li>
+                       <li> <a href="https://www.youtube.com/watch?v=TQDptwICjj4https://www.youtube.com/watch?v=TQDptwICjj4">a tutorial</a> on making a sewn fleece blanket from a blog called<a href="http://makinglemonadeblog.com/"> Making Lemonade</a>.</li>
+                        <li> <a href="https://www.mamasmiles.com/sewing-tutorial-how-to-make-a-weighted-sensory-blanket/">a tutorial</a> on making a weighted blanket, which can provide pressure, sensory input, and comfort to those with sensory issues. This tutorial is by <a href="https://www.mamasmiles.com/">Mama Smiles</a>.</li>
+                       <li> <a href="https://www.mamasmiles.com/sewing-tutorial-how-to-make-a-weighted-sensory-blanket/">23 Crochet patterns of various difficulty</a> provided by <a href="http://www.foliver.com/">Foliver</a>.</li>
+                      
+                      
+                       
+                  
+                  
+        
+                  
+                  </ul>
+                  
 
 
-  <p><strong>Pellentesque habitant morbi tristique</strong> senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. <em>Aenean ultricies mi vitae est.</em> Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, <code>commodo vitae</code>, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. <a href="#">Donec non enim</a> in turpis pulvinar facilisis. Ut felis.</p>
 
-  <h2>Header Level 2</h2>
-
-  <ol>
-     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-     <li>Aliquam tincidunt mauris eu risus.</li>
-  </ol>
-
-  <blockquote><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus magna. Cras in mi at felis aliquet congue. Ut a est eget ligula molestie gravida. Curabitur massa. Donec eleifend, libero at sagittis mollis, tellus est malesuada tellus, at luctus turpis elit sit amet quam. Vivamus pretium ornare est.</p></blockquote>
-
-  <h3>Header Level 3</h3>
-
-  <ul>
-     <li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</li>
-     <li>Aliquam tincidunt mauris eu risus.</li>
-  </ul>
-  <ul>
-     <li>Morbi in sem quis dui placerat ornare. Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu. Cras consequat.</li>
-     <li>Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus.</li>
-     <li>Phasellus ultrices nulla quis nibh. Quisque a lectus. Donec consectetuer ligula vulputate sem tristique cursus. Nam nulla quam, gravida non, commodo a, sodales sit amet, nisi.</li>
-     <li>Pellentesque fermentum dolor. Aliquam quam lectus, facilisis auctor, ultrices ut, elementum vulputate, nunc.</li>
-  </ul>
-              
+ 
 
 
 
@@ -129,9 +108,9 @@
                   <img src="https://78.media.tumblr.com/8991dd4cbe1851c52b661322794659d2/tumblr_ozrsodSPty1wifq6vo2_1280.png"/>
               </div>
               
-          
+              </section>
           </div>
-          </section>
+      
           
       </div>
 
@@ -144,4 +123,3 @@
 
   </html>
 
-</html>
