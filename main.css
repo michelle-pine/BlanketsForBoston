@@ -602,6 +602,7 @@ section {
   overflow-y: scroll;
   display: inline-block;
     font-size:18px;
+  padding-right:10px;
 }
 
 
