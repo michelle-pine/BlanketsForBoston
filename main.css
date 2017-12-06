@@ -31,11 +31,7 @@ nav {
   display: inline;
   box-shadow: 0.5px 0.5px 0.5px 0.5px rgba(0, 0, 0, 0.2);
   z-index: 9999999999;
-  -webkit-animation: fadein 1s;
-  -moz-animation: fadein 1s;
-  -ms-animation: fadein 1s;
-  -o-animation: fadein 1s;
-  animation: fadein 1s;
+ 
 }
 
 .logo {
